@@ -4,7 +4,7 @@ This repository is where im going to document all my study and notes on my journ
 
 During the study of a new thing, i will be reading, practicing and testing the code and through this process make some notes that i will disponibilize here on this repository.
 
-This repository may help someone but it is only to leave my learning journey registered.
+This repository may help someone but it is only to make my learning journey registered.
 
 &nbsp;
 
