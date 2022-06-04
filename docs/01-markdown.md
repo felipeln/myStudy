@@ -102,7 +102,8 @@ HTML:
 
 &nbsp;
 
-**Image**
+**Image** 
+
 ![text describing the image](https://i.imgur.com/0lhSv5g.jpeg)
 
 ```md
@@ -111,7 +112,8 @@ HTML:
 
 &nbsp;
 
-**Gifs**
+**Gifs** 
+
 ![gif](https://media.giphy.com/media/Cmr1OMJ2FN0B2/giphy.gif)
 
 ```md
@@ -125,7 +127,7 @@ HTML:
 [this is a link for a website](https://github.com/felipeln)
 
 ```md
-[this is a link](https://github.com/felipeln)
+[this is a link for a website](https://github.com/felipeln)
 ```
 
 &nbsp;
