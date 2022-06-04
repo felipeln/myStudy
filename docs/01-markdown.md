@@ -7,7 +7,7 @@ Markdown converts all your markdown formatted text to HTML, also markdown accept
 
 📝 Through my learning journey i will be using markdown to write and document everything that i am learning. 
 
-![markdown convert example](/docs/src/markdown-imgs/markdown-flowchart.png)
+![markdown convert example](/src/markdown-imgs/markdown-flowchart.png)
 
 &nbsp;
 
