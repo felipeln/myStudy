@@ -212,7 +212,7 @@ word for link reference [link]
 to break a line in markdown you need to add two white spaces at the end of the line.
 
 this line will break  
-this line will not break
+just a line
 
 ```md
 this line will break  
@@ -229,8 +229,9 @@ just a line
 1. first item
 2. second item
 3. third item
-    1. item inside the third item
-    2. one more item inside the third item.
+    1. first indented item
+    2. second indented item
+
 
 ```md
 1. first item
