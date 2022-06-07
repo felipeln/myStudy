@@ -31,12 +31,9 @@ The markdown syntax have elements like, headers, markers, tables, images and muc
 
 ###### Header 6  
 
----
-
-code:
+&nbsp;
 
 ```md
-markdown:
 # Header 1
 ## Header 2
 ## Header 2
@@ -44,8 +41,7 @@ markdown:
 #### Header 4
 ##### Header 5
 ###### Header 6
-
-HTML:
+or
 <h1> Header 1</h1>
 <h2> Header 2</h2>
 <h3> Header 3</h3>
@@ -58,10 +54,12 @@ HTML:
 
 &nbsp;
 
-**bold text**
+**bold text**  
 
 ```md
 **bold text**
+or
+<strong>bold text</strong>
 ```
 
 &nbsp;
@@ -70,6 +68,8 @@ HTML:
 
 ```md
 *italic text*
+or
+<i>italic text</i>
 ```
 
 &nbsp;
@@ -78,6 +78,8 @@ HTML:
 
 ```md
 ***italic and bold***
+or
+<i><strong>italic and bold</strong></i>
 ```
 
 &nbsp;
@@ -86,6 +88,8 @@ HTML:
 
 ```md
 ~~strike text~~
+or
+<s>strike text</s>
 ```
 
 &nbsp;
@@ -94,6 +98,27 @@ HTML:
 
 ```md
 >block quote
+or
+<blockquote>blockquote</blockquote>
+```
+
+&nbsp;
+
+>multiples block quote
+>> line 2
+>>> line 3
+
+```md
+>multiples block quote
+>> line 2
+>>> line 3
+or
+<blockquote>blockquote
+    <blockquote>line 2
+        <blockquote> line 3</blockquote>
+    </blockquote>
+</blockquote>
+
 ```
 
 &nbsp;
@@ -108,16 +133,20 @@ HTML:
 
 ```md
 ![text describing the image](https://i.imgur.com/0lhSv5g.jpeg)
+or
+<img src="https://i.imgur.com/0lhSv5g.jpeg" alt="text describing the image">
 ```
 
 &nbsp;
 
 **Gifs** 
 
-![gif](https://media.giphy.com/media/Cmr1OMJ2FN0B2/giphy.gif)
+![text describing the gif](https://media.giphy.com/media/Cmr1OMJ2FN0B2/giphy.gif)
 
 ```md
-![gif](https://media.giphy.com/media/Cmr1OMJ2FN0B2/giphy.gif)
+![text describing the gif](https://media.giphy.com/media/Cmr1OMJ2FN0B2/giphy.gif)
+or
+<img src="https://media.giphy.com/media/Cmr1OMJ2FN0B2/giphy.gif" alt="text describing the gif">
 ```
 
 &nbsp;
@@ -128,6 +157,8 @@ HTML:
 
 ```md
 [this is a link for a website](https://github.com/felipeln)
+or
+<a href="https://github.com/felipeln">this is a link for a website</a>
 ```
 
 &nbsp;
@@ -136,6 +167,8 @@ HTML:
 
 ```md
 [this is a link for a file](/README.md)
+or
+<a href="/README.md">this is a link for a file</a>
 ```
 
 &nbsp;
@@ -144,6 +177,8 @@ HTML:
 
 ```md
 [this is a link with title](https://github.com/felipeln "my github profile")
+or
+<a href="https://github.com/felipeln" title="my github profile">this is a link with title </a>
 ```
 
 &nbsp;
@@ -158,6 +193,7 @@ HTML:
 [link to my profile as reference][1]
 <-- here you can have some content in markdown -->
 [1]: https://github.com/felipeln
+
 ```
 
 &nbsp;
@@ -171,4 +207,156 @@ word for link reference [link]
 [link]: https://github.com/felipeln
 ```
 
+### **Line break syntax**
 
+to break a line in markdown you need to add two white spaces at the end of the line.
+
+this line will break  
+this line will not break
+
+```md
+this line will break  
+just a line
+or
+this line will break <br>
+just a line
+```
+
+### **Lists syntax**  
+
+**ordered list**
+
+1. first item
+2. second item
+3. third item
+    1. item inside the third item
+    2. one more item inside the third item.
+
+```md
+1. first item
+2. second item
+3. third item
+    1. first indented item
+    2. second indented item
+
+or
+
+<ol>
+    <li>First item</li>
+    <li>Second item</li>
+    <li>third item</li>
+        <ol>
+            <li>first indented item</li>
+            <li>second indented item</li>
+        </ol>
+</ol>
+```
+
+&nbsp;
+
+**Disordered list**
+
+- First item
+- Second item
+- third item
+    - first indented item
+    - second indented item
+
+```md
+- First item
+- Second item
+- third item
+    - first indented item
+    - second indented item
+
+or
+
+<ul>
+    <li>First item</li>
+    <li>Second item</li>
+    <li>Third item</li>
+    <ul>
+        <li>First indented item</li>
+        <li>Second indented item</li>
+    </ul>
+</ul>
+```
+
+&nbsp;
+
+**Task list**
+
+- [ ] first task
+- [x] second task
+- [x] third task
+
+```md
+- [ ] first task
+- [x] second task
+- [x] third task
+```
+
+&nbsp;
+
+### **Table syntax**
+table 1
+
+|Column| Column | Column|
+|:---- | :----: | ----: |
+|Left  |Center  |Right  |
+
+&nbsp;
+
+table 2
+|Column| Column| Column|
+|----: | :---- | :----:|
+|Right | Left  | Center|
+| 1    | 2     | 3     |
+
+```md
+table 1
+|Column| Column | Column|
+|:---- | :----: | ----: |
+|Left  |Center  |Right  |
+
+table 2
+|Column| Column| Column|
+|----: | :---- | :----:|
+|Right | Left  | Center|
+| 1    | 2     | 3     |
+
+or
+
+table 1
+<table>
+    <tr>
+        <th>Column</th>
+        <th>Column</th>
+        <th>Column</th>
+    </tr>
+    <tr>
+        <td align="left">Left</td>
+        <td align="center">Center</td>
+        <td align="right">Right</td>
+    </tr>
+</table>
+
+table 2
+<table>
+    <tr>
+        <th>Column</th>
+        <th>Column</th>
+        <th>Column</th>
+    </tr>
+    <tr>
+        <td align="right">Right</td>
+        <td align="left">Left</td>
+        <td align="center">Center</td>
+    </tr>
+    <tr>
+        <td align="right">1</td>
+        <td align="left">2</td>
+        <td align="center">3</td>
+    </tr>
+</table>
+```
