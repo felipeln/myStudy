@@ -232,7 +232,6 @@ just a line
     1. first indented item
     2. second indented item
 
-
 ```md
 1. first item
 2. second item
@@ -361,3 +360,82 @@ table 2
     </tr>
 </table>
 ```
+
+&nbsp;
+### **Details syntax**
+
+<details>
+    <summary>Summary list</summary>
+    
+* first item
+* second item
+* third item
+</details>
+
+```md
+
+<details>
+    <summary>Summary list</summary>
+    
+* first item
+* second item
+* third item
+</details>
+
+```
+
+### **Code syntax**
+
+output:
+```C
+ #include <stdio.h>
+    
+    int main(void){
+        printf("Hello, World!");
+        return 0;
+    }
+```
+
+code:
+```C
+    ```C
+    #include <stdio.h>
+        
+        int main(void){
+            printf("Hello, World!");
+            return 0;
+        }
+    ```
+
+    or
+
+    <code>
+        #include <stdio.h><br>
+        <br>
+        int main(void){<br>
+            printf("Hello, World!");<br>
+            return 0;<br>
+        }<br>
+    </code>
+```
+
+### **Emoji**
+
+You can add emojis and icons on your markdown, just copy and paste, you can find emojis on [Emojipedia](https://emojipedia.org/ "Emojipedia") 
+
+smile :grinning:  
+star  :star:  
+heart  ❤️  
+hamburger  🍔  
+
+```md
+smile :grinning: 
+star  :star:
+heart  ❤️
+hamburger  🍔
+```
+
+
+
+
+
