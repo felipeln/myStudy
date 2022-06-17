@@ -15,6 +15,8 @@ Markdown converts all your markdown formatted text to HTML, also markdown accept
 
 The markdown syntax have elements like, headers, markers, tables, images and much more. 
 
+&nbsp;
+
 ### **Header syntax**
 
 # Header 1
@@ -129,7 +131,7 @@ or
 
 **Image** 
 
-![text describing the image](https://i.imgur.com/0lhSv5g.jpeg)
+![text describing the image](https://i.imgur.com/0lhSv5g.jpeg "cat family")
 
 ```md
 ![text describing the image](https://i.imgur.com/0lhSv5g.jpeg)
@@ -141,7 +143,7 @@ or
 
 **Gifs** 
 
-![text describing the gif](https://media.giphy.com/media/Cmr1OMJ2FN0B2/giphy.gif)
+![text describing the gif](https://media.giphy.com/media/Cmr1OMJ2FN0B2/giphy.gif "text to show when hover the image")
 
 ```md
 ![text describing the gif](https://media.giphy.com/media/Cmr1OMJ2FN0B2/giphy.gif)
@@ -221,6 +223,8 @@ or
 this line will break <br>
 just a line
 ```
+
+&nbsp;
 
 ### **Lists syntax**  
 
@@ -384,6 +388,8 @@ table 2
 
 ```
 
+&nbsp;
+
 ### **Code syntax**
 
 output:
@@ -419,6 +425,8 @@ code:
     </code>
 ```
 
+&nbsp;
+
 ### **Emoji**
 
 You can add emojis and icons on your markdown, just copy and paste, you can find emojis on [Emojipedia](https://emojipedia.org/ "Emojipedia") 
@@ -434,8 +442,3 @@ star  :star:
 heart  ❤️
 hamburger  🍔
 ```
-
-
-
-
-
