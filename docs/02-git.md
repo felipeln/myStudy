@@ -1,5 +1,12 @@
 # **Git and Github**
 
+## **Git**
+
+## **What is git ?**
+
+Git is a version control system that helps you keep the track on code changes and is used to collaborate on coding.
+
+
 ## 1. **Config**
 
 - Setup the name for credit when reviewing version history.
@@ -16,11 +23,17 @@ git config --global user.name “user full name”
 git config --global user.email “github account email”
 ```
 
+- Setup the git default code editor
+
+```git
+git config --global code.editor [code editor name]
+```
+
 &nbsp;
 
 ## 2. Basic commands  
 
-- initialize a local repository in the current directory.  
+- Initialize a local repository in the current directory.  
 
 ```git
 git init
@@ -52,7 +65,7 @@ git add “file name”
 
 &nbsp;
 
-- Add all untracked files to be tracked, ready to be commited
+- Add all untracked files to be tracked (staged area), ready to be commited
 
 ```git
 git add .
@@ -60,7 +73,7 @@ git add .
 
 &nbsp;
 
-- Used to save the current tracked files version as a register on the version history.
+- Used to save the current tracked files version as a snapshot register on the version history.
 
 ```git
 git commit -m “commit message”
@@ -68,7 +81,7 @@ git commit -m “commit message”
 
 &nbsp;
 
-- Used to add all untracked files and commit on the same command.
+- Used to add all untracked files and commit them on the same command.
 
 ```git
 git commit -am "commit message"
@@ -76,11 +89,13 @@ git commit -am "commit message"
 
 &nbsp;
 
-- Show all commits in the current branch history.
+- Show all commits in the current branch history with the commit hash, author name, date, time and the commit message
 
 ```git
 git log
 ```
+
+- Show all commits in the current branch history with the commit hash in a short form.
 
 ```git
 git log --oneline
@@ -92,17 +107,77 @@ git reflog
 
 &nbsp;
 
-- Show the Diff of what is changed but not tracked in the specific file or all files changes.
+- Show the Diff of what is changed but not tracked or staged in the specific file or all files changes.
 
 ```git
 git diff [file name]
 ```
 
+&nbsp;
+
+- Show only the name of the files that was modified.
+
 ```git
-git diff
+git diff --name-only
 ```
 
 &nbsp;
+
+- Show all commits with commit hash, branch, author, date, commit message and what was modified.
+
+```git
+git show
+```
+
+&nbsp;
+
+- Show a specified commit with commit hash, branch, author, date, commit message and what was modified.
+
+```git
+git show [commit hash]
+```
+
+&nbsp;
+
+- go back to the last commited change of the file.
+
+```git
+git checkout [file name]
+```
+
+&nbsp;
+
+- Remove the file from the staging area ( from ready to be commmited )
+
+```git
+git reset HEAD [file name]
+```
+
+&nbsp;
+
+- Will remove the commit but keep the changes on the files and the files will be ready to be commited
+  - **obs:** you will pass the previous commit hash, not the hash from the commit you want to delete.
+
+```git
+git reset --soft [previous commit hash]
+```
+
+&nbsp;
+
+- Will remove the commit but keep the changes but not added to be tracked 
+  - **obs:** you will pass the previous commit hash, not the hash from the commit you want to delete.
+
+```git
+git reset --mixed [previous commit hash]
+```
+
+&nbsp;
+
+- Will remove any commit and changes ahead the commit hash passed.
+
+```git
+git reset --hard [previous commit hash]
+```
 
 ## 3. **Remote use**
 
@@ -110,6 +185,12 @@ git diff
 
 ```git
 git remote add origin [remote repository url]
+```
+
+- Updates the local repository with changes from the remote repository.
+
+```git
+git pull
 ```
 
 &nbsp;
