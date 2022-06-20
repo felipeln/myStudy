@@ -1,32 +1,6 @@
 # **Markdown**
 
-## **Summary**
-
-[1 - What is markdown ](#what-is-markdown)
-
-[2 - About Markdown syntax](#markdown)
-
-[3- Header syntax](#3-reset-commands)
-
-[4 - Emphasis syntax](#4-remote-use)
-
-[5 - Images and gif syntax](#5-branch)
-
-[6 - Links syntax ](#6-merge)
-
-[7 - Line break syntax](#7-github)
-
-[8 - Lists syntax](#7-github)
-
-[9 - Table syntax](#7-github)
-
-[10 - Details syntax](#7-github)
-
-[11 - Code syntax](#7-github)
-
-[12 - Emojis syntax](#7-github)
-
-## 1. **What is Markdown?**
+## **What is Markdown?**
 
 Markdown is a simple mark language, used to write articles, notes, documents and much more using an simple syntax to the text to indicate which format that text will have.
 Markdown converts all your markdown formatted text to HTML, also markdown accept HTML elements.
@@ -37,13 +11,13 @@ Markdown converts all your markdown formatted text to HTML, also markdown accept
 
 &nbsp;
 
-## 2. **Markdown syntax**
+## **Markdown syntax**
 
 The markdown syntax have elements like, headers, markers, tables, images and much more. 
 
 &nbsp;
 
-### 3. **Header syntax**
+### **Header syntax**
 
 # Header 1
 
@@ -78,7 +52,7 @@ or
 <h6> Header 6</h6>
 ```
 
-### 4. **Emphasis syntax**
+### **Emphasis syntax**
 
 &nbsp;
 
@@ -151,7 +125,7 @@ or
 
 &nbsp;
 
-### 5. **images and gifs syntax**
+### **images and gifs syntax**
 
 &nbsp;
 
@@ -179,7 +153,7 @@ or
 
 &nbsp;
 
-### 6. **Links syntax**
+### **Links syntax**
 
 [this is a link for a website](https://github.com/felipeln)
 
@@ -235,7 +209,7 @@ word for link reference [link]
 [link]: https://github.com/felipeln
 ```
 
-### 7. **Line break syntax**
+### **Line break syntax**
 
 to break a line in markdown you need to add two white spaces at the end of the line.
 
@@ -252,7 +226,7 @@ just a line
 
 &nbsp;
 
-### 8. **Lists syntax**  
+### **Lists syntax**  
 
 **ordered list**
 
@@ -328,7 +302,7 @@ or
 
 &nbsp;
 
-### 9. **Table syntax**
+### **Table syntax**
 table 1
 
 |Column| Column | Column|
@@ -392,7 +366,7 @@ table 2
 ```
 
 &nbsp;
-### 10. **Details syntax**
+### **Details syntax**
 
 <details>
     <summary>Summary list</summary>
@@ -416,7 +390,7 @@ table 2
 
 &nbsp;
 
-### 11. **Code syntax**
+### **Code syntax**
 
 output:
 ```C
@@ -453,9 +427,9 @@ code:
 
 &nbsp;
 
-### 12. **Emoji**
+### **Emoji**
 
-You can add emojis and icons on your markdown, just copy and paste, you can find emojis on [Emojipedia](https://emojipedia.org/ "Emojipedia"), [Emoji-list](https://github.com/caiyongji/emoji-list "emoji-list")  and on other sites
+You can add emojis and icons on your markdown, just copy and paste, you can find emojis on [Emojipedia](https://emojipedia.org/ "Emojipedia") 
 
 smile :grinning:  
 star  :star:  
