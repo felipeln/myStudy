@@ -1,6 +1,20 @@
 # **Git and Github**
 
-## **Git**
+## **Summary**
+
+[1 - Git Config](#1-config)
+
+[2 - Git Basics commands](#2-basic-commands)
+
+[3- Git reset commands](#3-reset-commands)
+
+[4 - Git Remote use commands](#4-remote-use)
+
+[5 - Git branch commands](#5-branch)
+
+[6 - Git Merge commands ](#6-merge)
+
+[7 - Github](#7-github)
 
 ## **What is git ?**
 
@@ -31,7 +45,7 @@ git config --global code.editor [code editor name]
 
 &nbsp;
 
-## 2. Basic commands  
+## 2. **Basic commands**  
 
 - Initialize a local repository in the current directory.  
 
@@ -95,11 +109,17 @@ git commit -am "commit message"
 git log
 ```
 
+&nbsp;
+
 - Show all commits in the current branch history with the commit hash in a short form.
 
 ```git
 git log --oneline
 ```
+
+&nbsp;
+
+- used to show the record updates made to the tip of branches.
 
 ```git
 git reflog
@@ -147,6 +167,8 @@ git checkout [file name]
 
 &nbsp;
 
+## 3. **Reset commands**
+
 - Remove the file from the staging area ( from ready to be commmited )
 
 ```git
@@ -179,7 +201,7 @@ git reset --mixed [previous commit hash]
 git reset --hard [previous commit hash]
 ```
 
-## 3. **Remote use**
+## 4. **Remote use**
 
 - Setup the remote repository to where you will push your code.
 
@@ -203,7 +225,7 @@ git push -u origin [branch name].
 
 &nbsp;
 
-## 4. **Branch**
+## 5. **Branch**
 
 - to create a new branch.
 
@@ -263,10 +285,16 @@ git branch -d [branch name]
 
 &nbsp;
 
-## 5. **Merge**
+## 6. **Merge**
 
 - Merge the specified branch’s history into the current one.
 
 ```git
 git merge [branch name]
 ```
+
+## 7. **Github**
+
+Github is service where you can store and manage your code on the cloud, with github you can have remotes repositories with your codes.
+
+:octocat: [github](https://github.com/)
