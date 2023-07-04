@@ -16,6 +16,8 @@ This repository may help someone but it is only to make my learning journey regi
 
 [03 - Terminal and Shell](/docs/03-terminal.md) 
 
+[04 - Docker](/docs/04-Docker.md)
+
 ---
 
 ## 🚧 Under construction.. 🚧
