@@ -95,6 +95,13 @@ git commit -am "commit message"
 
 &nbsp;
 
+- Used to change last commit message.
+```git
+git commit --amend
+```
+
+&nbsp;
+
 - Show all commits in the current branch history with the commit hash, author name, date, time and the commit message
 
 ```git
@@ -275,7 +282,6 @@ git branch
 ```git
 git branch -v
 ```
-
 
 &nbsp;
 

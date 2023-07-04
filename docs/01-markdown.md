@@ -33,7 +33,7 @@ Markdown converts all your markdown formatted text to HTML, also markdown accept
 
 📝 Through my learning journey i will be using markdown to write and document everything that i am learning. 
 
-![markdown convert example](/src/markdown-imgs/markdown-flowchart.png)
+![markdown convert example](https://gist.githubusercontent.com/felipeln/3688019c2ecd61930d83b416dbb063ec/raw/3ac215c2e3617194f5d5b5d4c9eef5cce2b4c701/markdown-flowchart.png)
 
 &nbsp;
 
