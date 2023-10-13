@@ -16,6 +16,8 @@
 
 [7 - Github](#7-github)
 
+[8 - Gitflow](#8-gitflow)
+
 ## **What is git ?**
 
 Git is a version control system that helps you keep the track on code changes and is used to collaborate on coding.
@@ -314,3 +316,17 @@ git merge [branch name]
 Github is service where you can store and manage your code on the cloud, with github you can have remotes repositories with your codes.
 
 :octocat: [github](https://github.com/)
+
+## 8. **Gitflow**
+
+Gitflow is a work model used by development teams to organize branchs inside a repository.
+
+Gitflow will help organize the process of **add new features**, **bug fixing**, **launch of new versions**
+
+### Branch organize
+
+#### **Main/master**
+Main or Master branch is the prod branch that will run our application.
+#### **Develop**
+#### **Feature**
+#### **Hotfix**

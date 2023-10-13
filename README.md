@@ -12,7 +12,7 @@ This repository may help someone but it is only to make my learning journey regi
 
 [01 - What is MarkDown?](/docs/01-markdown.md)
 
-[02 - Git e Github](/docs/02-git.md)
+[02 - Git and Github](/docs/02-git.md)
 
 [03 - Terminal and Shell](/docs/03-terminal.md) 
 
