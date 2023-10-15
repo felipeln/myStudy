@@ -1,28 +1,32 @@
+<!--  TODO Pegar as anotações de estudo de JS e colocar na documentação -->
+
 # **Javascript ES6+**
 
 ## **Summary**
 
-[1 - Variables ](#1-what-is-markdown)
+[1 - Variables ](#1-Variables)
 
-[2 - DOM ](#1-what-is-markdown)
+[2 - DOM ](#2-DOM)
 
-[3 - Prototype](#3-What-is-Prototype)
-
-[4 - Constructors](#4-Constructors)
-
-[4 - String](#4-String)
+[3 - String](#3-String)
   
-[5 - Number](#4-Number)
+[4 - Number](#4-Number)
 
-[4 - Math](#4-Math)
+[5 - Math](#5-Math)
 
-[3 - Array ](#1-what-is-markdown)
+[6 - Array ](#6-Array)
 
-[4 - Object](#2-markdown-syntax)
+[7 - Object](#7-Object)
 
-[5 - API](#2-markdown-syntax)
+[8 - Class](#8-Class)
+[9 - Function](#9-Function)
 
-[6 - Class](#1-Class)
+[9 - Prototype](#9-What-is-Prototype)
 
-[3 - Regex]
+[10 - Constructors](#10-Constructors)
 
+[11 - API](#11-API)
+
+[12 - Regex](#12-Regex)
+
+## 🚧 Under construction.. 🚧
