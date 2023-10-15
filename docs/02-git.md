@@ -209,6 +209,11 @@ git reset --hard [previous commit hash]
 ```git
 git remote add origin [remote repository url]
 ```
+- you can add more remote repositories if you are working on a project with multi repositories.
+
+```git
+git remote add [name] [repository URL]
+```
 
 &nbsp;
 
@@ -231,7 +236,7 @@ git clone [url]
 - Updates the local repository with changes from the remote repository.
 
 ```git
-git pull
+git pull [remote repository name]
 ```
 
 &nbsp;
@@ -240,6 +245,15 @@ git pull
 
 ```git
 git push -u origin [branch name].
+```
+
+
+&nbsp;
+
+- Updates the references of remote branches in your local repository so that you can see what changes have been made in the remote repository
+
+```git
+git fetch [remote repository name]
 ```
 
 &nbsp;
@@ -328,5 +342,21 @@ Gitflow will help organize the process of **add new features**, **bug fixing**, 
 #### **Main/master**
 Main or Master branch is the prod branch that will run our application.
 #### **Develop**
+Develop branch is the one that will contain the code in progress before the merge to the main
+
+the develop will be a time-line for our application
 #### **Feature**
+feature branch are support branch that will be created through the develop branch.
+
+This branch will be created when needed to add a new feature to the applicaiton.
+
+this kind of branchs need to be name as **feature/name-of-the-new-feature**.
+
+After the feature be concluded, this branch will be merge to the develop and after this, will be deleted.
 #### **Hotfix**
+Its a branch used to fix bugs and other things, usually will be created through the **main/master** branch.
+
+after fix the problem, this branch will be merged to de develop and to the main/master branch.
+
+#### Release
+This branch will be created as one stop of the development is concluded
